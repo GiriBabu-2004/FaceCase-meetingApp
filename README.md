@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 👥💻 FaceCase
 
-## Getting Started
+**FaceCase** is a modern video conferencing web application — a full-stack clone of Google Meet — built with **Next.js**, **React**, **Node.js**, **MongoDB Atlas**, and **ZegoCloud**. It enables real-time audio/video meetings with secure authentication, dynamic room management, and a sleek, responsive UI powered by **shadcn/ui**.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🛠️ Tech Stack
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Frontend
+- **Next.js 14**
+- **React.js**
+- **Tailwind CSS**
+- **shadcn/ui**
+- **JavaScript**
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### Backend
+- **Node.js**
+- **Next.js API Routes**
+- **JWT Authentication**
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Database
+- **MongoDB Atlas**
+- **Mongoose**
 
-## Learn More
+### Real-Time Communication
+- **ZegoCloud SDK**
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## ✨ Features
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- 🔐 **Authentication**
+  - Secure JWT-based login via google and github
+  - User session management
 
-## Deploy on Vercel
+- 🧑‍🤝‍🧑 **Create & Join Meetings**
+  - Unique, shareable room links
+  - Join as host or guest
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- 📹 **Real-Time Video Calls**
+  - High-quality audio/video powered by ZegoCloud
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- 📋 **Meeting Room Interface**
+  - Mute/unmute, leave, participant name display
+  - Minimal and intuitive video call UI
+
+- 🌐 **Responsive Design**
+  - Fully responsive across mobile, tablet, and desktop
+  - Built with Tailwind CSS and shadcn/ui components
+
+- 💬 **In-Room Chat** 
+  - Real-time chat messaging during meetings
+
+---
+
+## 🖼️ Project Images
